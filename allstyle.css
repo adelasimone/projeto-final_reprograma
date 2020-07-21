@@ -1,0 +1,43 @@
+/*  DESKTOP-FIRST */
+
+/* CORES */
+/* background-color: #83A603; VERDE*/
+/* background-color: #57bace; AZUL */
+/* background-color: #f0ce6a; AMARELO */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    /* align-items: center; */
+}
+
+.header-style {
+    color: #FFFFFF;
+    background-color: #57bace;
+    
+    text-align: center;
+    padding: 35px;
+}
+
+.nav-style {
+    background-color: #f0ce6a;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul {
+    padding: 10px 20px;
+}
+
+.nav ul a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer-style{
+    
+}
