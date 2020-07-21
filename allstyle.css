@@ -22,13 +22,20 @@ header {
 
 nav {
     background-color: #f0ce6a;
+    margin: 0 35%;
 
     display: flex;
     justify-content: center;
 }
 
 nav ul {
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 0.8rem;
+}
+
+nav ul:hover{
+    font-weight: bold;
+    transition: 1s;
+    background-color: #c49b20;
 }
 
 nav ul a {
@@ -39,5 +46,14 @@ footer {
     color: #FFF;
     background-color: #57bace;
 
+    padding: 0.09rem 0;
+    margin-bottom: 0;
+
     text-align: center;
+    position: relative;
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: bold;
 }

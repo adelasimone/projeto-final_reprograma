@@ -1,28 +1,32 @@
-section{
+section {
   margin: 3rem;
 }
 
-.title-section{
+.title-section {
   text-align: center;
 }
 
-article{
+article {
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.div-container{
+.div-container {
   text-align: center;
   padding: 1rem;
   width: auto;
 }
 
-img{
+img {
   width: 100%;
 }
 
-@media screen and (max-width: 960px){
-  article{
+span {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 960px) {
+  article {
     display: grid;
     grid-template-columns: auto auto;
   }
