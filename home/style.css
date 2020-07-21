@@ -1,15 +1,29 @@
 section{
-  margin: 50px auto;
+  margin: 3rem;
+}
+
+.title-section{
+  text-align: center;
+}
+
+article{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.div-container{
+  text-align: center;
+  padding: 1rem;
+  width: auto;
+}
+
+img{
   width: 100%;
 }
 
-section article {
-
-  display: flex;
-  justify-content: center;
-}
-
-section article div {
-  padding: 0 25px;
-  text-align: center;
+@media screen and (max-width: 960px){
+  article{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
