@@ -58,8 +58,8 @@ footer p{
     font-weight: bold;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
     nav{
         display: none;
     }
-}
+} */
