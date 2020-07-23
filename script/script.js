@@ -1,3 +1,3 @@
 function redirecionar() {
-    location.href = "bordado.html"
+    location.href = "bordado/bordado.html"
 }
