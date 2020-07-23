@@ -8,7 +8,7 @@ section {
 
 article {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 21rem 21rem 21rem;
   grid-gap: 4rem;
 }
 
@@ -26,7 +26,14 @@ article {
 .div-container span, h4, p {
   cursor: default;
 }
-
+.div-container p {
+  text-align: justify;
+  /* lines: 2; */
+  max-width: 50ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .div-container:hover {
   box-shadow: 15px 15px 15px #afaeae;
 }
@@ -37,13 +44,13 @@ img {
 }
 
 span {
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 0;
 }
 
 @media screen and (max-width: 960px) {
   article {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 21rem 21rem;
   }
 }
