@@ -8,7 +8,7 @@ section {
 
 article {
   display: grid;
-  grid-template-columns: 21rem 21rem 21rem;
+  grid-template-columns: auto auto auto;
   grid-gap: 4rem;
 }
 
@@ -29,10 +29,10 @@ article {
 .div-container p {
   text-align: justify;
   /* lines: 2; */
-  max-width: 50ch;
+  /* max-width: 50ch;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: nowrap; */
 }
 .div-container:hover {
   box-shadow: 15px 15px 15px #afaeae;
@@ -51,6 +51,6 @@ span {
 @media screen and (max-width: 960px) {
   article {
     display: grid;
-    grid-template-columns: 21rem 21rem;
+    grid-template-columns: auto auto;
   }
 }
