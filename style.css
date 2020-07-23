@@ -9,20 +9,36 @@ section {
 article {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-gap: 4rem;
 }
 
 .div-container {
+  cursor: pointer;
   text-align: center;
-  padding: 1rem;
-  width: auto;
+  line-height: 1.6rem;
+
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px #bebebe;
+  transition: .4s cubic-bezier(.25, .2, .25, 1);
+}
+
+.div-container span, h4, p {
+  cursor: default;
+}
+
+.div-container:hover {
+  box-shadow: 15px 15px 15px #afaeae;
 }
 
 img {
   width: 100%;
+  margin-bottom: 0;
 }
 
 span {
   font-size: 12px;
+  line-height: 0;
 }
 
 @media screen and (max-width: 960px) {

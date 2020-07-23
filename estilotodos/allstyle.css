@@ -10,14 +10,18 @@
     padding: 0;
     border: none;
     text-decoration: none;
+    font-family: 'Josefin Slab', serif;
 }
 
 header {
     color: #FFFFFF;
     background-color: #57bace;
     text-align: center;
-
-    padding: 2rem;
+    
+    padding: 1.5rem;
+}
+header h1{
+    font-family: 'Fredericka the Great', cursive;
 }
 
 nav {
@@ -33,7 +37,6 @@ nav ul {
 }
 
 nav ul:hover{
-    font-weight: bold;
     transition: 1s;
     background-color: #c49b20;
 }
@@ -58,8 +61,12 @@ footer p{
     font-weight: bold;
 }
 
-/* @media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     nav{
         display: none;
     }
-} */
+
+    header h1{
+        text-align: start;
+    }
+}
