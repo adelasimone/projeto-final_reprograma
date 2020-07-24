@@ -38,7 +38,7 @@ article {
 span,
 h4,
 p {
-  cursor: default;
+  cursor: default; 
 }
 
 .div-container:hover {
