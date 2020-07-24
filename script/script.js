@@ -1,3 +1,5 @@
 function redirecionar() {
-    location.href = "bordado/bordado.html"
+    // if(id==="bordado"){
+        location.href = "bordado/bordado.html"
+    // }
 }
