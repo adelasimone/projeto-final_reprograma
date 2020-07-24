@@ -59,10 +59,10 @@ span {
   }
 }
 
-/* @media screen and (max-width: 520px) {
+@media screen and (max-width: 668px) {
   article {
     display: grid;
     grid-template-columns: auto;
   }
 
-} */
+}
