@@ -11,6 +11,7 @@
     border: none;
     text-decoration: none;
     font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 }
 
 header {
@@ -22,6 +23,7 @@ header {
 }
 
 header h1 {
+    font-weight: lighter;
     font-family: 'Fredericka the Great', cursive;
 }
 
@@ -62,7 +64,7 @@ footer p {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 668px) {
     nav {
         display: none;
     }

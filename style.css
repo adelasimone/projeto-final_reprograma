@@ -23,21 +23,22 @@ article {
   transition: .4s cubic-bezier(.25, .2, .25, 1);
 }
 
-.div-container span,
-h4,
-p {
-  cursor: default;
-}
-
 .div-container p {
   text-align: justify;
   text-indent: 1rem;
-
+  
   /* esses abaixo funcionam juntos!! */
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.div-container
+span,
+h4,
+p {
+  cursor: default;
 }
 
 .div-container:hover {
@@ -54,14 +55,14 @@ span {
 
 @media screen and (max-width: 960px) {
   article {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto auto;
   }
 }
 
 @media screen and (max-width: 668px) {
   article {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: auto;
   }
 
