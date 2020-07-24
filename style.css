@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.container-titulo{
-  text-align: center;
-}
-
 article {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -13,10 +9,11 @@ article {
 }
 
 .div-container {
+  background-color: #FFF;
   cursor: pointer;
   text-align: center;
   line-height: 1.6rem;
-  
+
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 2px 2px 8px #bebebe;
@@ -26,7 +23,7 @@ article {
 .div-container p {
   text-align: justify;
   text-indent: 1rem;
-  
+
   /* esses abaixo funcionam juntos!! */
   overflow: hidden;
   display: -webkit-box;
@@ -34,11 +31,10 @@ article {
   -webkit-line-clamp: 3;
 }
 
-.div-container
-span,
+.div-container span,
 h4,
 p {
-  cursor: default; 
+  cursor: default;
 }
 
 .div-container:hover {
@@ -56,15 +52,12 @@ span {
 
 @media screen and (max-width: 960px) {
   article {
-    /* display: grid; */
     grid-template-columns: auto auto;
   }
 }
 
 @media screen and (max-width: 668px) {
   article {
-    /* display: grid; */
     grid-template-columns: auto;
   }
-
 }
