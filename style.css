@@ -16,35 +16,39 @@ article {
   cursor: pointer;
   text-align: center;
   line-height: 1.6rem;
-
+  
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 2px 2px 8px #bebebe;
   transition: .4s cubic-bezier(.25, .2, .25, 1);
 }
 
-.div-container span, h4, p {
+.div-container span,
+h4,
+p {
   cursor: default;
 }
+
 .div-container p {
   text-align: justify;
-  /* lines: 2; */
-  /* max-width: 50ch;
+  text-indent: 1rem;
+
+  /* esses abaixo funcionam juntos!! */
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
+
 .div-container:hover {
   box-shadow: 15px 15px 15px #afaeae;
 }
 
 img {
   width: 100%;
-  margin-bottom: 0;
 }
 
 span {
-  /* font-size: 12px; */
   line-height: 0;
 }
 
@@ -54,3 +58,11 @@ span {
     grid-template-columns: auto auto;
   }
 }
+
+/* @media screen and (max-width: 520px) {
+  article {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+} */

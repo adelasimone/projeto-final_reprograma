@@ -17,10 +17,11 @@ header {
     color: #FFFFFF;
     background-color: #57bace;
     text-align: center;
-    
+
     padding: 1.5rem;
 }
-header h1{
+
+header h1 {
     font-family: 'Fredericka the Great', cursive;
 }
 
@@ -36,7 +37,7 @@ nav ul {
     padding: 0.3rem 0.8rem;
 }
 
-nav ul:hover{
+nav ul:hover {
     transition: 1s;
     background-color: #c49b20;
 }
@@ -56,17 +57,17 @@ footer {
     position: relative;
 }
 
-footer p{
+footer p {
     font-size: 13px;
     font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
-    nav{
+    nav {
         display: none;
     }
 
-    header h1{
+    header h1 {
         text-align: start;
     }
 }
