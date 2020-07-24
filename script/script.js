@@ -1,9 +1,6 @@
-function redirecionar() {
-    // if(id==="bordado"){
+function redirecionarBor() {
         location.href = "bordado/bordado.html"
-    // }
 }
-
-function menuRsp() {
-    
+function redirecionarQui() {
+        location.href = "quilling/quilling.html"
 }

@@ -1,7 +1,24 @@
-article{
-    margin: ;
+div {
+    margin-bottom: 6rem;
 }
 
-article > img {
-    height: 15rem;
+p {
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.container-right {
+    display: flex;
+}
+
+.container-left {
+    display: flex;
+}
+
+.container-right img {
+    margin-right: 4rem;
+}
+
+.container-left img {
+    margin-left: 4rem;
 }
