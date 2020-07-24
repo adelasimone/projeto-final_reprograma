@@ -1,0 +1,25 @@
+div {
+    margin-bottom: 6rem;
+}
+
+p {
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.container-right {
+    display: flex;
+}
+
+.container-left {
+    display: flex;
+}
+
+.container-right img {
+    margin-right: 4rem;
+    height: 30rem;
+}
+
+.container-left img {
+    margin-left: 4rem;
+}
