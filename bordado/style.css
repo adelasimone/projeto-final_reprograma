@@ -7,6 +7,10 @@ p {
     text-align: justify;
 }
 
+img{
+    max-width: 30rem;
+}
+
 .container-right {
     display: flex;
 }
@@ -22,3 +26,11 @@ p {
 .container-left img {
     margin-left: 4rem;
 }
+
+@media screen and (max-width: 960px) {
+    .container-right {
+        display: block;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+  }
